@@ -1,18 +1,24 @@
-# Youtube Video App
+# React Youtube Video App
 
 ## Table of Contents
 
--   [Youtube Video App](#youtube-video-app)
+-   [React Youtube Video Browser](#youtube-video-app)
     -   [Overview](#overview)
     -   [Installation](#installation)
     -   [Author](#author)
     -   [Collaborations](#collaborations)
     -   [License](#license)
-    -   [Acknowledgements / Resources](#acknowledgements-/-resources)
 
 ## Overview
 
 This is an application created using React v17. Overall purpose is to practice and showcase best practices around building a React Application. Some of the key features include: resuable components, functional components, react hooks, and making HTTP request to a third party API.
+
+### React vs Vue.js
+
+I have created this application in both React.js and Vue.js. They are not exactly built the same in terms of styling libraries but they logic and components are similiar. Please checkout the Vue repository below to compare the two!
+
+[React Youtube Video Browser](https://github.com/joseph-zabaleta/react-video-browser.git)
+[Vue Youtube Video Browser](https://github.com/joseph-zabaleta/vue-video-browser)
 
 ## Installation
 
@@ -24,6 +30,12 @@ This is an application created using React v17. Overall purpose is to practice a
     - `npm start`
     - `node index.js`
 
+### Compiles and minifies for production
+
+```
+npm run build
+```
+
 ## Author
 
 -   Software Developer: Joseph Zabaleta
@@ -31,13 +43,8 @@ This is an application created using React v17. Overall purpose is to practice a
 
 ## Collaborations
 
--   Udemy Instructor [Stephen Grider](https://www.udemy.com/course/react-redux/#instructor-1)
+-   Udemy Instructor [Stephen Grider](https://www.udemy.com/user/sgslo/)
 
 ## License
 
 This project is under the MIT License.
-
-## Acknowledgements / Resources
-
--   [Modern React with Redux [2020 Update]](https://www.udemy.com/course/react-redux/)
-    -   Udemy Course created by [Stephen Grider](https://www.udemy.com/course/react-redux/#instructor-1)
